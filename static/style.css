@@ -1,0 +1,33 @@
+body {
+  /* background-color: rgb(75, 166, 166); */
+  background: linear-gradient(
+    90deg,
+    rgba(75, 166, 166, 1) 0%,
+    rgba(16, 242, 208, 1) 19%,
+    rgba(236, 41, 204, 1) 100%
+  );
+}
+
+h1 {
+  color: red;
+}
+
+h2 {
+  color: darkgreen;
+}
+
+div {
+  padding: 10px;
+}
+
+p {
+  background-color: white;
+  border: solid;
+  border-color: green;
+  padding: 35px;
+  text-align: center;
+}
+
+li {
+  padding: 10px;
+}

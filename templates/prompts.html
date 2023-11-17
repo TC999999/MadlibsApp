@@ -1,0 +1,15 @@
+{%extends 'base.html'%}{%block title%}Madlibs Prompts!{%endblock%} {%block
+content%}
+<h1>Fill in the prompts for story {{n}}</h1>
+<form action="/story/{{n}}">
+  {%for word in prompts%}
+  <div>
+    <label for="{{word}}">{{word}}: </label>
+    <input type="text" name="{{word}}" />
+  </div>
+
+  {%endfor%}
+
+  <button>Submit</button>
+</form>
+{%endblock%}
